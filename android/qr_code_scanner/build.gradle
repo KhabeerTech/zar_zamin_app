@@ -1,0 +1,13 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    namespace "net.touchcapture.qr.flutterqr"
+    compileSdkVersion 33
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 33
+    }
+}
